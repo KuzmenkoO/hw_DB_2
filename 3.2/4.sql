@@ -1,0 +1,10 @@
+ALTER TABLE projects ADD COLUMN cost INTEGER;
+UPDATE projects SET cost = 13000 WHERE id_project=1;
+UPDATE projects SET cost = 11000 WHERE id_project=2;
+UPDATE projects SET cost = 12000 WHERE id_project=3;
+UPDATE projects SET cost = 14000 WHERE id_project=4;
+UPDATE projects SET cost = 15000 WHERE id_project=5;
+UPDATE projects SET cost = 10000 WHERE id_project=6;
+UPDATE projects SET cost = 9000 WHERE id_project=7;
+UPDATE projects SET cost = 11000 WHERE id_project=8;
+UPDATE projects SET cost = 13000 WHERE id_project=9;
